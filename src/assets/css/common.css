@@ -1,0 +1,19 @@
+html,body,#app{width:100%; height:100%;}
+html,body{width:100%; height:100%;}
+body{color:#666;background:#efeff4;min-width:320px; font-size:.14rem; line-height:.22rem; overflow-x:hidden; -webkit-text-size-adjust:none;
+-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+*,
+*:before, *:after{-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+/* CLEARFIX */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0; line-height:0;}
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+input[type="text"],input[type="number"],input[type="password"],
+input[type="button"],input[type="submit"],
+input[type="checkbox"],textarea,button{outline:0; -webkit-tap-highlight-color:transparent;-webkit-transition:background-color;}
+input[type="button"],input[type="submit"],button{-webkit-appearance:none; border:none;}
+
+/*btn*/
+.ui-btn{display:inline-block;padding:.4rem 1.2rem; font-size:1.6rem;text-align:center;white-space:nowrap; vertical-align:middle;
+  -ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none; -moz-user-select:none;-ms-user-select:none;user-select:none;
+  background-image:none;}
