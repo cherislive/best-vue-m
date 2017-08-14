@@ -2,11 +2,11 @@
 
 > Mobile peoject for Vue.js
 
-# 技术栈
+### 技术栈
 
 vue2 + vuex + vue-router + webpack + ES6/7 + fetch + mint-ui
 
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
@@ -31,4 +31,16 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 目标功能
+- [x] 触屏优化 -- 完成
+- [x] Router示例 -- 完成
+- [x] Router示例 -- 完成
+
+
+
+### 项目布局
+
+
+### License
+
+MIT

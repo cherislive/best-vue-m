@@ -5,20 +5,26 @@ export default [{
   children: [ // 二级路由。对应App.vue
     {
       path: '',
-      redirect: '/login'
+      redirect: '/default'
     }, {
-      path: '/detail',
-      component: resolve => require(['../page/detail/index'], resolve),  // 顶级页面 加载二级路由
+      path: '/default',
+      component: resolve => require(['../page/index'], resolve),  // 顶级页面 加载二级路由
       children: [
         {
           path: '',
-          redirect: '/:id'
+          redirect: '/index'
         }, {
-          path: '/detail/:id',
-          component: resolve => require(['../page/detail/detail'], resolve)
+          path: '/index',
+          component: resolve => require(['../page/home/index'], resolve)
         }, {
-          path: '/detail/res/:id',
-          component: resolve => require(['../page/detail/res'], resolve)
+          path: '/detail',
+          component: resolve => require(['../page/detail/index'], resolve)
+        }, {
+          path: '/discover',
+          component: resolve => require(['../page/discover/index'], resolve)
+        }, {
+          path: '/icenter',
+          component: resolve => require(['../page/icenter/index'], resolve)
         }
       ]
     }, {

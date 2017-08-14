@@ -1,7 +1,9 @@
 <template>
-<transition>
-  <router-view></router-view>
-</transition>
+<div>
+  <transition>
+    <router-view></router-view>
+  </transition>
+</div>
 </template>
 <script>
 import {cookie, removeCookie} from '@/config/mUtils'

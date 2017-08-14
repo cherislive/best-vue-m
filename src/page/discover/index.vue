@@ -1,6 +1,6 @@
 <template>
 <div>
-details
+discover page
 </div>
 </template>
 <script>
@@ -12,8 +12,6 @@ export default {
     }
   },
   mounted () {
-  },
-  components: {
   },
   methods: { // 处理分享逻辑
   }
