@@ -39,6 +39,8 @@ npm test
 
 
 ### 项目布局
+
+```
 .
 ├── build                                       // webpack配置文件
 ├── config                                      // 项目打包路径
@@ -82,7 +84,8 @@ npm test
 │   ├── main.js                                 // 程序入口文件，加载各种公共组件
 ├── favicon.ico                                 // 图标
 ├── index.html                                  // 入口html文件
-
+.
+```
 ### License
 
 MIT
