@@ -1,5 +1,5 @@
-import {baseUrl} from './env'
-import {cookie, removeCookie} from './utils'
+import {baseUrl} from '@/config/env'
+import {cookie, removeCookie} from '@/config/mUtils'
 
 export default async(url = '', options = {}) => {
   options.method = options.method || 'fetch'

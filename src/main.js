@@ -1,9 +1,9 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-// import store from './store/'
 import VueRouter from 'vue-router'
 import routes from './router'
+import store from './store/'
 import vueTap from 'v-tap' // 移动端专用
 import FastClick from 'fastclick' // 移动端专用
 import MintUI from 'mint-ui'
@@ -36,6 +36,5 @@ const router = new VueRouter({
 })
 
 new Vue({
-  router
-  // ,store
+  router, store
 }).$mount('#app')

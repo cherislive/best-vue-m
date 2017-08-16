@@ -4,7 +4,7 @@
 
 ### 技术栈
 
-vue2 + vuex + vue-router + webpack + ES6/7 + fetch + mint-ui
+vue2 + vuex + vue-router + webpack + ES6/7 + fetch + [mint-ui](http://mint-ui.github.io)
 
 ### Build Setup
 
@@ -34,7 +34,7 @@ npm test
 ### 目标功能
 - [x] 触屏优化 -- 完成
 - [x] Router示例 -- 完成
-- [x] Router示例 -- 完成
+- [x] [swiper](https://github.com/surmon-china/vue-awesome-swiper)示例 -- 完成
 
 
 

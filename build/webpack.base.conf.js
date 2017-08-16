@@ -23,9 +23,14 @@ module.exports = {
   resolve: {
     // 自动补全的扩展名
     extensions: ['.js', '.vue', '.json'],
+    modules: [
+      resolve('src'),
+      resolve('node_modules')
+    ],
     alias: {
       // 默认路径代理，例如 import Vue from 'vue'，会自动到 'vue/dist/vue.common.js'中寻找
       'vue$': 'vue/dist/vue.esm.js',
+      'src': resolve('src'),
       '@': resolve('src')
     }
   },

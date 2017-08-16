@@ -1,7 +1,7 @@
 export const listData = [
   {
-    path: '/api/mock/list',
-    rtype: 'POST',
+    path: '/apix/details/list',
+    rtype: 'post',
     data: {
       'data|10': [{
         'id|+1': 20123350, // 客户ID
