@@ -1,7 +1,7 @@
 <template>
 <div>
   <head-top></head-top>
-  <router-view></router-view>
+  <router-view class="mod-fm"></router-view>
   <tab-bar></tab-bar>
 </div>
 </template>
@@ -25,4 +25,5 @@ export default {
 }
 </script>
 <style>
+.mod-fm{padding-bottom:55px;}
 </style>

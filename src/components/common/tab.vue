@@ -30,7 +30,13 @@ export default {
   },
   computed: {
   },
+  beforeRouterEnter (to, from, next) {
+    next(() => {
+      console.log('BBBBBB', to, from, next)
+    })
+  },
   mounted () {
+    console.log('AAAAAAAAAA')
     this.onRoutes()  // 初始化路由
   },
   methods: {

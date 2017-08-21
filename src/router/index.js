@@ -20,6 +20,9 @@ export default [{
           path: '/detail',
           component: resolve => require(['../page/detail/index'], resolve)
         }, {
+          path: '/detail/:id',
+          component: resolve => require(['../page/detail/detail'], resolve)
+        }, {
           path: '/discover',
           component: resolve => require(['../page/discover/index'], resolve)
         }, {

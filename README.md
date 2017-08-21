@@ -35,6 +35,8 @@ npm test
 - [x] 触屏优化 -- 完成
 - [x] Router示例 -- 完成
 - [x] [swiper](https://github.com/surmon-china/vue-awesome-swiper)示例 -- 完成
+- [x] 父子组件通讯 -- 完成
+- [x] backTop示例 -- 完成
 
 
 

@@ -14,6 +14,8 @@ input[type="button"],input[type="submit"],
 input[type="checkbox"],textarea,button{outline:0; -webkit-tap-highlight-color:transparent;-webkit-transition:background-color;}
 input[type="button"],input[type="submit"],button{-webkit-appearance:none; border:none;}
 
+.wrapper{padding:.1rem;}
+.mod-block{margin-bottom:.1rem;}
 /*btn*/
 .ui-btn{display:inline-block;padding:.4rem 1.2rem; font-size:1.6rem;text-align:center;white-space:nowrap; vertical-align:middle;
   -ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none; -moz-user-select:none;-ms-user-select:none;user-select:none;

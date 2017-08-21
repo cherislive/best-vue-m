@@ -4,9 +4,9 @@
 <template>
 <div class="mod-header">
 <mt-header fixed title="示例项目">
-  <router-link to="/" slot="left">
+  <div slot="left" @click="$router.go(-1)">
     <mt-button icon="back">back</mt-button>
-  </router-link>
+  </div>
   <mt-button icon="more" slot="right"></mt-button>
 </mt-header>
 </div>
@@ -20,6 +20,9 @@ export default {
   computed: {
   },
   mounted () {
+  },
+  beforeRouterEnter (to, from, next) {
+    console.log(to, from, next)
   },
   methods: {
   }
